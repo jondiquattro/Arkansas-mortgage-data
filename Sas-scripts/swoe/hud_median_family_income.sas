@@ -1,0 +1,13 @@
+select (hud_median_family_income);
+ when ('46500') hud_median_family_income_swo = 0.4904954286 ;
+ when ('47700') hud_median_family_income_swo = 0.2118106587 ;
+ when ('48500') hud_median_family_income_swo = 0.9311332921 ;
+ when ('49700') hud_median_family_income_swo = 0.7365309282 ;
+ when ('53000') hud_median_family_income_swo = 0.558074871 ;
+ when ('54400') hud_median_family_income_swo = 0.4660121759 ;
+ when ('59100') hud_median_family_income_swo = 0.5071068496 ;
+ when ('62100') hud_median_family_income_swo = 0.8023169064 ;
+ when ('64400') hud_median_family_income_swo = 0.9259707194 ;
+ when ('m_cat') hud_median_family_income_swo = -3.209049899 ;
+ otherwise hud_median_family_income_swo = 0.6694589568 ;
+end;

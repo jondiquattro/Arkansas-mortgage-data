@@ -1,0 +1,12 @@
+select (msamd_name);
+ when ('Fayetteville, Springdale, Rogers - AR, MO') msamd_name_swo = 0.9259707194 ;
+ when ('Fort Smith - AR, OK') msamd_name_swo = 0.7363293304 ;
+ when ('Hot Springs - AR') msamd_name_swo = 0.4660121759 ;
+ when ('Jonesboro - AR') msamd_name_swo = 0.9311332921 ;
+ when ('Little Rock, North Little Rock, Conway - AR') msamd_name_swo = 0.8023676273 ;
+ when ('Memphis - TN, MS, AR') msamd_name_swo = 0.5084320081 ;
+ when ('Pine Bluff - AR') msamd_name_swo = 0.2118106587 ;
+ when ('Texarkana - TX, AR') msamd_name_swo = 0.5566184756 ;
+ when ('m_cat') msamd_name_swo = 0.4125341319 ;
+ otherwise msamd_name_swo = 0.6694589568 ;
+end;

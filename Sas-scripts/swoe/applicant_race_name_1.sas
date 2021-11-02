@@ -1,0 +1,10 @@
+select (applicant_race_name_1);
+ when ('American Indian or Alaska Native') applicant_race_name_1_swo = -0.193715914 ;
+ when ('Asian') applicant_race_name_1_swo = 0.600500791 ;
+ when ('Black or African American') applicant_race_name_1_swo = -0.132429174 ;
+ when ('Information not provided by applicant in mail, Internet, or telephone application') applicant_race_name_1_swo = -0.163905512 ;
+ when ('Native Hawaiian or Other Pacific Islander') applicant_race_name_1_swo = 0.401031237 ;
+ when ('Not applicable') applicant_race_name_1_swo = 4.0635300802 ;
+ when ('White') applicant_race_name_1_swo = 0.6049687893 ;
+ otherwise applicant_race_name_1_swo = 0.6694589568 ;
+end;

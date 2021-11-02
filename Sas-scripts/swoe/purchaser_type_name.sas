@@ -1,0 +1,12 @@
+select (purchaser_type_name);
+ when ('Affiliate institution') purchaser_type_name_swo = 3.1974960951 ;
+ when ('Commercial bank, savings bank or savings association') purchaser_type_name_swo = 6.8343797335 ;
+ when ('Fannie Mae (FNMA)') purchaser_type_name_swo = 7.2545722153 ;
+ when ('Freddie Mac (FHLMC)') purchaser_type_name_swo = 6.8888798441 ;
+ when ('Ginnie Mae (GNMA)') purchaser_type_name_swo = 7.7067748426 ;
+ when ('Life insurance company, credit union, mortgage bank, or finance company') purchaser_type_name_swo = 7.0177628655 ;
+ when ('Loan was not originated or was not sold in calendar year covered by register') purchaser_type_name_swo = -0.449630778 ;
+ when ('Other type of purchaser') purchaser_type_name_swo = 5.2344953373 ;
+ when ('Private securitization') purchaser_type_name_swo = 2.4986667177 ;
+ otherwise purchaser_type_name_swo = 0.6694589568 ;
+end;
